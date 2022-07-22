@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiple-instances
+          default-label: gateway
           uri: https://github.com/pauldev17/microservices-01
           search-paths: config-data
   application:
